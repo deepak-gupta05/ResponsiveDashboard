@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced Responsive Web Dashboard with Dark and Light Theme">
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <header class="dashboard-header">
+        <h1>Web Dashboard</h1>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </header>
+
+    <nav class="dashboard-sidebar">
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main class="dashboard-main">
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>This is the overview section.</p>
+        </section>
+        <section id="analytics">
+            <h2>Analytics</h2>
+            <div class="chart-container">
+                <!-- Add charts here -->
+            </div>
+        </section>
+        <section id="settings">
+            <h2>Settings</h2>
+            <form>
+                <label for="setting1">Setting 1</label>
+                <input type="text" id="setting1" name="setting1">
+            </form>
+        </section>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>User Profile Details.</p>
+        </section>
+    </main>
+    <footer class="dashboard-footer">
+        <p>&copy; 2024 Advanced Dashboard</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
